@@ -60,7 +60,7 @@ Analyzed employee data using MySQL to answer business questions related to emplo
 
 ## Project Files
 
-- [HR_ANALYTICS.sql)
+- - [HR Analytics SQL Queries](./HR_ANALYTICS.sql)
 
 ## Key Skills Demonstrated
 
