@@ -22,6 +22,28 @@ Analyzed employee data using SQL to identify workforce trends, employee demograp
 - Examined attrition rates based on years since last promotion.
 - Used JOIN operations to combine employee and HR datasets.
 
+## SQL Techniques Used
+
+- SELECT and WHERE
+- GROUP BY and ORDER BY
+- Aggregate Functions
+- CASE Statements
+- INNER JOIN
+- Subqueries
+- Conditional Aggregation
+- ROUND and AVG
+- COUNT and SUM
+- LIMIT
+
+## Key Insights
+
+- Measured overall employee attrition using a calculated attrition rate.
+- Identified department-level differences in employee attrition.
+- Compared average monthly income between employees who stayed and employees who left.
+- Evaluated average working experience across departments.
+- Compared work-life balance across job roles.
+- Analyzed the relationship between years since last promotion and employee attrition.
+
 ## SQL Concepts Used
 
 - SELECT
