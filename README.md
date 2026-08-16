@@ -2,60 +2,61 @@
 
 ## Project Overview
 
-Analyzed employee data using SQL to identify workforce trends, employee demographics, attrition patterns, and key HR metrics.
+Analyzed employee data using MySQL to answer business questions related to employee attrition, salary, departments, job roles, overtime, work experience, work-life balance, and promotions.
 
 ## Tools Used
 
 - MySQL
 - SQL
 
-## Key Analysis
+## SQL Questions Analyzed
 
-- Calculated total employee count and attrition distribution.
-- Analyzed average salary and salary differences across job roles.
-- Calculated attrition rate using SQL aggregation and conditional logic.
-- Analyzed department-wise employee attrition.
-- Evaluated overtime employee counts.
-- Compared attrition with monthly income statistics.
-- Calculated average working years across departments.
-- Analyzed work-life balance across different job roles.
-- Examined attrition rates based on years since last promotion.
-- Used JOIN operations to combine employee and HR datasets.
-
-## SQL Techniques Used
-
-- SELECT and WHERE
-- GROUP BY and ORDER BY
-- Aggregate Functions
-- CASE Statements
-- INNER JOIN
-- Subqueries
-- Conditional Aggregation
-- ROUND and AVG
-- COUNT and SUM
-- LIMIT
-
-## Key Insights
-
-- Measured overall employee attrition using a calculated attrition rate.
-- Identified department-level differences in employee attrition.
-- Compared average monthly income between employees who stayed and employees who left.
-- Evaluated average working experience across departments.
-- Compared work-life balance across job roles.
-- Analyzed the relationship between years since last promotion and employee attrition.
+1. What is the total number of employees?
+2. What is the employee attrition rate?
+3. What is the average salary for each job role?
+4. What is the average hourly rate of male Research Scientists?
+5. How does attrition relate to monthly income?
+6. What is the average working experience for each department?
+7. What is the average work-life balance for each job role?
+8. How does attrition rate vary based on years since the last promotion?
+9. How many employees work overtime?
+10. Which employee has the highest monthly income?
 
 ## SQL Concepts Used
 
 - SELECT
 - WHERE
+- COUNT
+- AVG
+- SUM
+- MIN
+- MAX
 - GROUP BY
 - ORDER BY
-- CASE statements
-- Aggregate functions
-- JOINs
+- CASE Statements
+- INNER JOIN
 - Subqueries
-- Common Table Expressions (CTEs)
-- Window functions
+- Conditional Aggregation
+- ROUND
+- LIMIT
+
+## Key Analysis
+
+- Calculated total employee count and overall attrition rate.
+- Analyzed average salary across different job roles.
+- Compared attrition and monthly income statistics.
+- Evaluated department-wise average working years.
+- Analyzed work-life balance across job roles.
+- Examined attrition rates based on years since last promotion.
+- Analyzed overtime employees and highest monthly income.
+
+## Key Insights
+
+- Measured employee attrition using SQL-based calculations.
+- Compared employee attrition with monthly income.
+- Identified differences in average working experience across departments.
+- Compared work-life balance across different job roles.
+- Examined how years since the last promotion relates to employee attrition.
 
 ## Project Files
 
@@ -65,8 +66,8 @@ Analyzed employee data using SQL to identify workforce trends, employee demograp
 
 - SQL Data Analysis
 - Data Aggregation
-- Data Cleaning
 - Data Filtering
-- Joins
-- Business Insights
+- Conditional Logic
+- Table Joins
+- Business Question Analysis
 - Exploratory Data Analysis
