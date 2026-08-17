@@ -137,25 +137,15 @@ The analysis calculated attrition count, total employees, and attrition rate for
 | 524 | 50,999 |
 ## 🔍 Key Insights
 
-- Analyzed **25,000+ employee records** to understand workforce
-  trends and employee attrition.
-- Identified a **50.21% company-wide attrition rate** through SQL
-  aggregation and conditional calculations.
-- Compared employee attrition with monthly income and observed a
-  relatively narrow income range of approximately **$25.8K–$26.4K**.
-- Analyzed employee working experience across different departments
-  using SQL JOIN and AVG functions.
-- Compared work-life balance across different job roles.
-- Identified **Sales** as the lowest work-life-balance segment with
-  a score of **2.469/5.0**.
-- Evaluated the relationship between **years since last promotion**
-  and employee attrition.
-- Analyzed overtime employees to understand its relationship with
-  workforce attrition.
-- Compared average salary across different job roles using SQL
-  aggregation.
-- Identified the employee with the highest monthly income using
-  sorting and `LIMIT`.
+- Analyzed **50,000 employees** and identified an overall **50.21% attrition rate**.
+- Found that **24,861 employees** were working overtime.
+- **Managers** had the highest average salary at **26,365.30**, while **Human Resources** had the lowest at **25,794.76** among the analyzed job roles.
+- Employees who left had a slightly higher average monthly income (**26,072.60**) compared with employees who stayed (**25,958.49**).
+- **Software** had the highest average working experience at **20.65 years**, while **Research & Development** had the lowest at **20.30 years**.
+- **Sales Executive** had the lowest average work-life balance score at **2.47**.
+- Attrition rates varied across years since the last promotion, with the highest observed rate of **51.34%** at 6 years since the last promotion.
+- Identified **Employee ID 524** as having the highest monthly income of **50,999**.
+- Used SQL JOINs and aggregation to combine employee demographic and compensation data for workforce analysis.
 
 ## 🎯 Key Skills Demonstrated
 
