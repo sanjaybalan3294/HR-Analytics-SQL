@@ -55,68 +55,86 @@ The project answers the following business questions:
 
 | Analysis | Result |
 |---|---:|
-| Employee Records Analyzed | 25,000+ |
+| Total Employees | 50,000 |
 | Overall Attrition Rate | 50.21% |
+| Employees Working Overtime | 24,861 |
 
-### Attrition & Monthly Income
+### Average Salary by Job Role
 
-The analysis compared monthly income between employees who stayed
-and employees who left the organization.
+| Job Role | Average Salary |
+|---|---:|
+| Manager | 26,365.30 |
+| Sales Executive | 26,131.83 |
+| Sales Representative | 26,098.71 |
+| Developer | 26,012.21 |
+| Research Director | 26,008.09 |
+| Laboratory Technician | 25,947.86 |
+| Manufacturing Director | 25,937.43 |
+| Healthcare Representative | 25,937.30 |
+| Research Scientist | 25,916.69 |
+| Human Resources | 25,794.76 |
+
+### Male Research Scientist Analysis
 
 | Analysis | Result |
 |---|---:|
-| Income Range Observed | $25.8K – $26.4K |
-| Attrition vs Income | Compared using AVG, MIN, MAX and SUM |
+| Average Hourly Rate | 114.4469 |
 
-### Department Analysis
+### Attrition vs Monthly Income
 
-Calculated average working years across departments using SQL
-JOIN and aggregation.
+| Attrition | Average Monthly Income | Minimum Income | Maximum Income | Total Income |
+|---|---:|---:|---:|---:|
+| Yes | 26,072.60 | 1,002 | 50,999 | 654,552,543 |
+| No | 25,958.49 | 1,001 | 50,999 | 646,236,520 |
 
-| Analysis | Result |
-|---|---|
-| Department Working Experience | Calculated using AVG(TotalWorkingYears) |
-| Department Attrition | Compared using conditional aggregation |
+### Average Working Years by Department
 
-### Job Role Analysis
-
-Analyzed salary and work-life balance across different job roles.
-
-| Analysis | Result |
-|---|---|
-| Average Salary by Job Role | Calculated using AVG(MonthlyIncome) |
-| Work-Life Balance by Job Role | Calculated using AVG(WorkLifeBalance) |
-
-### Work-Life Balance
-
-The analysis identified differences in work-life balance across
-job roles.
-
-| Analysis | Result |
+| Department | Average Working Years |
 |---|---:|
-| Lowest Work-Life Balance Segment | Sales |
-| Sales Work-Life Balance Score | 2.469 / 5.0 |
+| Hardware | 20.48 |
+| Support | 20.48 |
+| Sales | 20.62 |
+| Research & Development | 20.30 |
+| Software | 20.65 |
+| Human Resources | 20.45 |
 
-### Attrition & Promotion Analysis
+### Job Role vs Work-Life Balance
 
-Analyzed employee attrition rates based on the number of years
-since the employee's last promotion.
+| Job Role | Average Work-Life Balance |
+|---|---:|
+| Research Director | 2.49 |
+| Sales Executive | 2.47 |
+| Human Resources | 2.51 |
+| Manufacturing Director | 2.50 |
+| Developer | 2.51 |
+| Manager | 2.50 |
+| Sales Representative | 2.50 |
+| Healthcare Representative | 2.51 |
+| Laboratory Technician | 2.49 |
+| Research Scientist | 2.51 |
 
-| Analysis | Result |
-|---|---|
-| Promotion Factor | Years Since Last Promotion |
-| Analysis Method | Conditional Attrition Rate |
+### Attrition Rate vs Years Since Last Promotion
 
-### Overtime Analysis
+The analysis calculated attrition count, total employees, and attrition rate for **40 different years-since-last-promotion groups**.
 
-Analyzed the number of employees working overtime using SQL
-filtering on the `OverTime` field.
+| Years Since Last Promotion | Attrition Rate |
+|---:|---:|
+| 1 | 50.14% |
+| 2 | 50.07% |
+| 3 | 49.96% |
+| 4 | 51.28% |
+| 5 | 50.55% |
+| 6 | 51.34% |
+| 7 | 50.76% |
+| 8 | 49.11% |
+| 9 | 49.42% |
+| 10 | 48.86% |
 
 ### Highest Monthly Income
 
-Identified the employee with the highest monthly income using
-`ORDER BY MonthlyIncome DESC` and `LIMIT 1`.
-
+| Employee ID | Monthly Income |
+|---:|---:|
+| 524 | 50,999 |
 ## 🔍 Key Insights
 
 - Analyzed **25,000+ employee records** to understand workforce
